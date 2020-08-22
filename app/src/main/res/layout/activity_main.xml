@@ -90,11 +90,19 @@
         android:layout_height="wrap_content"
         android:text="마케팅 정보 활용 동의" />
 
-    <ImageView
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:scaleType="centerCrop"
-        android:src="@drawable/facebook_logo_01"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/facebook_logo_01" />
+
+    </LinearLayout>
 
     <Button
         android:layout_width="match_parent"
